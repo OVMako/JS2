@@ -32,7 +32,49 @@
     }
 
     // task2
-    //
+    //Быки и коровы
+    var b , k
+    function RND (a , b) {
+        return Math.floor (Math.random () * (b - a + 1) + a)
+        
+    }
+
+    function Make () {
+        var s =''
+        for (var i = 0; i < 4; i++){
+            do {
+                var c = (RND (0 , 9))
+            }
+            while(s.indexOf(c) >= 0)
+            s = s + c
+            return s
+        }
+            //document.write (RND (0 , 9))
+    }
+
+    function Analize (make , attempt){
+        b = 0
+        k = 0
+        for (var i = 0; i < 4; i++) {
+            if (make[i] == attempt[i])
+                b++;
+                else if (make.indexOf(attempt[i]) >= 0)
+                k++
+                }
+    }
+
+    var m = Make ()
+    for( var i = 0; i < 10; i++) {
+        var d =prompt('Введите число')
+        Analize (m,d)
+        var s = d +''+ b + 'Б' + k + 'K'
+        console.log(s)
+        if (d==m) {
+            console.log('Вы выиграли')
+            break
+        }
+    }
+    
     </script>
 </head>
 <body>
