@@ -1,0 +1,30 @@
+.wrapper {
+    margin: 100px;
+    width: 900px;
+    position: relative;
+
+}
+
+.roulette {
+    z-index: 1;
+}
+
+/*.btn {
+    width: 100%;
+    top: 300px;
+    left: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    
+}
+
+
+
+.left,
+.right {
+    border: none;
+    background-color: transparent;
+    font-size: 100px;
+}
