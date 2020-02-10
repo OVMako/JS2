@@ -57,7 +57,7 @@ input[type="color"] {
 
 #tool-images img:hover, .tool-active {
 	cursor: pointer;
-	outline: 1px solid green;
+	outline: 1px solid rgb(243, 168, 7);
 	box-sizing: border-box;
 	background-color: #e9ac90;
 }
@@ -99,4 +99,28 @@ input[type="color"] {
 #front-canvas {
 	position: absolute;
 	left: 0;
+}
+	/*---*/
+
+#properties {
+	position: fixed;
+	right: 100px;
+	bottom: 50px;
+	width: 130px;
+	height: 150px;
+	padding: 0 10px 0 10px;
+	display: none;
+}
+
+#properties input[type="number"] {
+	margin-right: 5px;
+	width: 60px;
+}
+
+#properties-title {
+	text-align: center;
+}
+
+#invert {
+	width: 120px;
 }
