@@ -1,7 +1,42 @@
-#c1 {
-	width: 400px;
-	height: 200px;
-	border: 3px solid black;
-	margin: 40px;
-	
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ece4de;
+}
+
+#controls, #properties   {
+	color: #142c17;
+	font: 12px Arial;
+	height: 100px;
+	background-color: #d4beac;
+	border-bottom: 2px solid darkgray;
+}
+
+.container {
+	float: left;
+	position: relative;
+	margin: 10px 0 0 20px;
+	height: 80px;
+	width: 150px;
+	border-right: 1px solid darkgray;
+}
+
+input[type="button"], input[type="file"] {
+	width: 115px;
+}
+
+input[type="number"] {
+	width: 40px;
+	position: absolute;
+	right: 10px;
+}
+
+#controls .name {
+	position: absolute;
+	bottom: -20px;
+	width: 150px;
+	text-align: center;
+	right: 20px;
+	font: 12px Arial;
+	color: darkslateblue;
 }
