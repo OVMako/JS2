@@ -40,3 +40,19 @@ input[type="number"] {
 	font: 12px Arial;
 	color: darkslateblue;
 }
+#tool-images {
+	width: 50px;
+	margin: 25px 0 10px 25px;
+}
+
+#tool-images img:hover {
+	cursor: pointer;
+	outline: 1px solid green;
+	box-sizing: border-box;
+}
+
+#tool-images img:hover {
+	
+	outline: 1px solid darkgreen;
+	
+}
